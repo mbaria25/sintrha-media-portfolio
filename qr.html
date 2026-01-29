@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sintrha Media Portfolio QR</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+</head>
+<body style="text-align:center; font-family: Arial; padding: 40px;">
+  <h2>Scan to view Sintrha Media Portfolio</h2>
+
+  <div id="qrcode"></div>
+
+  <script>
+    new QRCode(document.getElementById("qrcode"), {
+      text: "https://mbaria25.github.io/sintrha-media-portfolio/sintrhaportfolio.pdf",
+      width: 220,
+      height: 220
+    });
+  </script>
+</body>
+</html>
